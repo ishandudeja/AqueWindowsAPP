@@ -27,3 +27,32 @@ F:\info706\WindowsFormsAppLeb\WindowsFormsAppLeb\bin\Debug\LiveCharts.Wpf.pdb
 F:\info706\WindowsFormsAppLeb\WindowsFormsAppLeb\bin\Debug\LiveCharts.Wpf.xml
 F:\info706\WindowsFormsAppLeb\WindowsFormsAppLeb\obj\Debug\WindowsFormsAppLeb.csprojAssemblyReference.cache
 F:\info706\WindowsFormsAppLeb\WindowsFormsAppLeb\bin\Debug\DBUtil.dll
+C:\Users\Ivan Dario\Source\Repos\WindowsFormsAquaID\WindowsFormsAppLeb\bin\Debug\WindowsFormsAppLeb.exe.config
+C:\Users\Ivan Dario\Source\Repos\WindowsFormsAquaID\WindowsFormsAppLeb\obj\Debug\WindowsFormsAppLeb.exe
+C:\Users\Ivan Dario\Source\Repos\WindowsFormsAquaID\WindowsFormsAppLeb\obj\Debug\WindowsFormsAppLeb.pdb
+C:\Users\Ivan Dario\Source\Repos\WindowsFormsAquaID\WindowsFormsAppLeb\bin\Debug\DBUtil.dll
+C:\Users\Ivan Dario\Source\Repos\WindowsFormsAquaID\WindowsFormsAppLeb\bin\Debug\Oracle.DataAccess.dll
+C:\Users\Ivan Dario\Source\Repos\WindowsFormsAquaID\WindowsFormsAppLeb\bin\Debug\OraOps12.dll
+C:\Users\Ivan Dario\Source\Repos\WindowsFormsAquaID\WindowsFormsAppLeb\bin\Debug\oci.dll
+C:\Users\Ivan Dario\Source\Repos\WindowsFormsAquaID\WindowsFormsAppLeb\bin\Debug\oramts.dll
+C:\Users\Ivan Dario\Source\Repos\WindowsFormsAquaID\WindowsFormsAppLeb\bin\Debug\oramts12.dll
+C:\Users\Ivan Dario\Source\Repos\WindowsFormsAquaID\WindowsFormsAppLeb\bin\Debug\oramtsus.dll
+C:\Users\Ivan Dario\Source\Repos\WindowsFormsAquaID\WindowsFormsAppLeb\bin\Debug\orannzsbb12.dll
+C:\Users\Ivan Dario\Source\Repos\WindowsFormsAquaID\WindowsFormsAppLeb\bin\Debug\oraons.dll
+C:\Users\Ivan Dario\Source\Repos\WindowsFormsAquaID\WindowsFormsAppLeb\bin\Debug\WindowsFormsAppLeb.exe
+C:\Users\Ivan Dario\Source\Repos\WindowsFormsAquaID\WindowsFormsAppLeb\bin\Debug\WindowsFormsAppLeb.pdb
+C:\Users\Ivan Dario\Source\Repos\WindowsFormsAquaID\WindowsFormsAppLeb\bin\Debug\LiveCharts.dll
+C:\Users\Ivan Dario\Source\Repos\WindowsFormsAquaID\WindowsFormsAppLeb\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\Ivan Dario\Source\Repos\WindowsFormsAquaID\WindowsFormsAppLeb\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\Ivan Dario\Source\Repos\WindowsFormsAquaID\WindowsFormsAppLeb\bin\Debug\LiveCharts.pdb
+C:\Users\Ivan Dario\Source\Repos\WindowsFormsAquaID\WindowsFormsAppLeb\bin\Debug\LiveCharts.xml
+C:\Users\Ivan Dario\Source\Repos\WindowsFormsAquaID\WindowsFormsAppLeb\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\Ivan Dario\Source\Repos\WindowsFormsAquaID\WindowsFormsAppLeb\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\Ivan Dario\Source\Repos\WindowsFormsAquaID\WindowsFormsAppLeb\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\Ivan Dario\Source\Repos\WindowsFormsAquaID\WindowsFormsAppLeb\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\Ivan Dario\Source\Repos\WindowsFormsAquaID\WindowsFormsAppLeb\obj\Debug\WindowsFormsAppLeb.csprojAssemblyReference.cache
+C:\Users\Ivan Dario\Source\Repos\WindowsFormsAquaID\WindowsFormsAppLeb\obj\Debug\WindowsFormsAppLeb.Form1.resources
+C:\Users\Ivan Dario\Source\Repos\WindowsFormsAquaID\WindowsFormsAppLeb\obj\Debug\WindowsFormsAppLeb.Properties.Resources.resources
+C:\Users\Ivan Dario\Source\Repos\WindowsFormsAquaID\WindowsFormsAppLeb\obj\Debug\WindowsFormsAppLeb.csproj.GenerateResource.cache
+C:\Users\Ivan Dario\Source\Repos\WindowsFormsAquaID\WindowsFormsAppLeb\obj\Debug\WindowsFormsAppLeb.csproj.CoreCompileInputs.cache
+C:\Users\Ivan Dario\Source\Repos\WindowsFormsAquaID\WindowsFormsAppLeb\obj\Debug\WindowsFormsAppLeb.csproj.CopyComplete
