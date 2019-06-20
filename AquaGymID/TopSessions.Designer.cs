@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.cartesianChart1 = new LiveCharts.WinForms.CartesianChart();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.cartesianChart2 = new LiveCharts.WinForms.CartesianChart();
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.cartesianChart2 = new LiveCharts.WinForms.CartesianChart();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -49,6 +49,17 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(550, 520);
             this.panel1.TabIndex = 0;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold);
+            this.label1.ForeColor = System.Drawing.Color.Navy;
+            this.label1.Location = new System.Drawing.Point(333, 3);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(182, 32);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Best Sessions";
             // 
             // cartesianChart1
             // 
@@ -81,26 +92,6 @@
             this.panel2.Size = new System.Drawing.Size(550, 520);
             this.panel2.TabIndex = 1;
             // 
-            // cartesianChart2
-            // 
-            this.cartesianChart2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.cartesianChart2.Location = new System.Drawing.Point(0, 0);
-            this.cartesianChart2.Name = "cartesianChart2";
-            this.cartesianChart2.Size = new System.Drawing.Size(550, 520);
-            this.cartesianChart2.TabIndex = 0;
-            this.cartesianChart2.Text = "cartesianChart2";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold);
-            this.label1.ForeColor = System.Drawing.Color.Navy;
-            this.label1.Location = new System.Drawing.Point(333, 3);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(182, 32);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Best Sessions";
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -111,6 +102,15 @@
             this.label2.Size = new System.Drawing.Size(199, 32);
             this.label2.TabIndex = 2;
             this.label2.Text = "Worst Sessions";
+            // 
+            // cartesianChart2
+            // 
+            this.cartesianChart2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cartesianChart2.Location = new System.Drawing.Point(0, 0);
+            this.cartesianChart2.Name = "cartesianChart2";
+            this.cartesianChart2.Size = new System.Drawing.Size(550, 520);
+            this.cartesianChart2.TabIndex = 0;
+            this.cartesianChart2.Text = "cartesianChart2";
             // 
             // TopSessions
             // 
