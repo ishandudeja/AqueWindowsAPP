@@ -56,3 +56,32 @@ C:\Users\Ivan Dario\Source\Repos\WindowsFormsAquaID\WindowsFormsAppLeb\obj\Debug
 C:\Users\Ivan Dario\Source\Repos\WindowsFormsAquaID\WindowsFormsAppLeb\obj\Debug\WindowsFormsAppLeb.csproj.GenerateResource.cache
 C:\Users\Ivan Dario\Source\Repos\WindowsFormsAquaID\WindowsFormsAppLeb\obj\Debug\WindowsFormsAppLeb.csproj.CoreCompileInputs.cache
 C:\Users\Ivan Dario\Source\Repos\WindowsFormsAquaID\WindowsFormsAppLeb\obj\Debug\WindowsFormsAppLeb.csproj.CopyComplete
+D:\AqueWindowsAPP\WindowsFormsAppLeb\bin\Debug\DBUtil.dll
+D:\AqueWindowsAPP\WindowsFormsAppLeb\bin\Debug\Oracle.DataAccess.dll
+D:\AqueWindowsAPP\WindowsFormsAppLeb\bin\Debug\OraOps12.dll
+D:\AqueWindowsAPP\WindowsFormsAppLeb\bin\Debug\oci.dll
+D:\AqueWindowsAPP\WindowsFormsAppLeb\bin\Debug\oramts.dll
+D:\AqueWindowsAPP\WindowsFormsAppLeb\bin\Debug\oramts12.dll
+D:\AqueWindowsAPP\WindowsFormsAppLeb\bin\Debug\oramtsus.dll
+D:\AqueWindowsAPP\WindowsFormsAppLeb\bin\Debug\orannzsbb12.dll
+D:\AqueWindowsAPP\WindowsFormsAppLeb\bin\Debug\oraons.dll
+D:\AqueWindowsAPP\WindowsFormsAppLeb\bin\Debug\WindowsFormsAppLeb.exe.config
+D:\AqueWindowsAPP\WindowsFormsAppLeb\bin\Debug\WindowsFormsAppLeb.exe
+D:\AqueWindowsAPP\WindowsFormsAppLeb\bin\Debug\WindowsFormsAppLeb.pdb
+D:\AqueWindowsAPP\WindowsFormsAppLeb\bin\Debug\LiveCharts.dll
+D:\AqueWindowsAPP\WindowsFormsAppLeb\bin\Debug\LiveCharts.WinForms.dll
+D:\AqueWindowsAPP\WindowsFormsAppLeb\bin\Debug\LiveCharts.Wpf.dll
+D:\AqueWindowsAPP\WindowsFormsAppLeb\bin\Debug\LiveCharts.pdb
+D:\AqueWindowsAPP\WindowsFormsAppLeb\bin\Debug\LiveCharts.xml
+D:\AqueWindowsAPP\WindowsFormsAppLeb\bin\Debug\LiveCharts.WinForms.pdb
+D:\AqueWindowsAPP\WindowsFormsAppLeb\bin\Debug\LiveCharts.WinForms.xml
+D:\AqueWindowsAPP\WindowsFormsAppLeb\bin\Debug\LiveCharts.Wpf.pdb
+D:\AqueWindowsAPP\WindowsFormsAppLeb\bin\Debug\LiveCharts.Wpf.xml
+D:\AqueWindowsAPP\WindowsFormsAppLeb\obj\Debug\WindowsFormsAppLeb.csprojAssemblyReference.cache
+D:\AqueWindowsAPP\WindowsFormsAppLeb\obj\Debug\WindowsFormsAppLeb.Form1.resources
+D:\AqueWindowsAPP\WindowsFormsAppLeb\obj\Debug\WindowsFormsAppLeb.Properties.Resources.resources
+D:\AqueWindowsAPP\WindowsFormsAppLeb\obj\Debug\WindowsFormsAppLeb.csproj.GenerateResource.cache
+D:\AqueWindowsAPP\WindowsFormsAppLeb\obj\Debug\WindowsFormsAppLeb.csproj.CoreCompileInputs.cache
+D:\AqueWindowsAPP\WindowsFormsAppLeb\obj\Debug\WindowsFormsAppLeb.csproj.CopyComplete
+D:\AqueWindowsAPP\WindowsFormsAppLeb\obj\Debug\WindowsFormsAppLeb.exe
+D:\AqueWindowsAPP\WindowsFormsAppLeb\obj\Debug\WindowsFormsAppLeb.pdb
