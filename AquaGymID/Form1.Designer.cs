@@ -30,19 +30,21 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.SidePanel = new System.Windows.Forms.Panel();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.SidePanel = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.USERS = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.USERS = new System.Windows.Forms.Label();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.label8 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.dryWet1 = new AquaGymID.DryWet();
@@ -50,6 +52,7 @@
             this.attendance1 = new AquaGymID.Attendance();
             this.topSessions1 = new AquaGymID.TopSessions();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
@@ -75,6 +78,94 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(200, 730);
             this.panel1.TabIndex = 0;
+            // 
+            // SidePanel
+            // 
+            this.SidePanel.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.SidePanel.Location = new System.Drawing.Point(3, 100);
+            this.SidePanel.Name = "SidePanel";
+            this.SidePanel.Size = new System.Drawing.Size(10, 80);
+            this.SidePanel.TabIndex = 3;
+            // 
+            // button5
+            // 
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.White;
+            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
+            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button5.Location = new System.Drawing.Point(12, 548);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(188, 80);
+            this.button5.TabIndex = 7;
+            this.button5.Text = "    EXIT";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // button4
+            // 
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.Color.White;
+            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
+            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.Location = new System.Drawing.Point(12, 358);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(188, 80);
+            this.button4.TabIndex = 6;
+            this.button4.Text = "   Classes";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button3
+            // 
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.Location = new System.Drawing.Point(12, 272);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(188, 80);
+            this.button3.TabIndex = 5;
+            this.button3.Text = "     Dry vs Wet";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button2
+            // 
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button2.Location = new System.Drawing.Point(12, 186);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(188, 80);
+            this.button2.TabIndex = 4;
+            this.button2.Text = "         Attendance";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button1
+            // 
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.Location = new System.Drawing.Point(12, 100);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(188, 80);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "     Top Sessions";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // panel3
             // 
@@ -103,97 +194,10 @@
             this.panel2.Size = new System.Drawing.Size(201, 199);
             this.panel2.TabIndex = 2;
             // 
-            // button1
-            // 
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(12, 100);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(188, 80);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "     Top Sessions";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // button2
-            // 
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(12, 186);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(188, 80);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "         Attendance";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // button3
-            // 
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(12, 272);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(188, 80);
-            this.button3.TabIndex = 5;
-            this.button3.Text = "     Dry vs Wet";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // button4
-            // 
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(12, 358);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(188, 80);
-            this.button4.TabIndex = 6;
-            this.button4.Text = "   Classes";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // button5
-            // 
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
-            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.Location = new System.Drawing.Point(12, 548);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(188, 80);
-            this.button5.TabIndex = 7;
-            this.button5.Text = "    EXIT";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
-            // 
-            // SidePanel
-            // 
-            this.SidePanel.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.SidePanel.Location = new System.Drawing.Point(3, 100);
-            this.SidePanel.Name = "SidePanel";
-            this.SidePanel.Size = new System.Drawing.Size(10, 80);
-            this.SidePanel.TabIndex = 3;
-            // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(152)))), ((int)(((byte)(211)))));
+            this.panel4.Controls.Add(this.label7);
             this.panel4.Controls.Add(this.label1);
             this.panel4.Controls.Add(this.USERS);
             this.panel4.Location = new System.Drawing.Point(889, 31);
@@ -201,9 +205,46 @@
             this.panel4.Size = new System.Drawing.Size(193, 149);
             this.panel4.TabIndex = 7;
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.Location = new System.Drawing.Point(32, 119);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(131, 21);
+            this.label7.TabIndex = 3;
+            this.label7.Text = "Total Last Week";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(27, 45);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(141, 77);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "143";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // USERS
+            // 
+            this.USERS.AutoSize = true;
+            this.USERS.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.USERS.ForeColor = System.Drawing.Color.White;
+            this.USERS.Location = new System.Drawing.Point(0, 13);
+            this.USERS.Name = "USERS";
+            this.USERS.Size = new System.Drawing.Size(194, 32);
+            this.USERS.TabIndex = 0;
+            this.USERS.Text = "PARTICIPANTS";
+            this.USERS.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(152)))), ((int)(((byte)(211)))));
+            this.panel5.Controls.Add(this.label8);
             this.panel5.Controls.Add(this.label2);
             this.panel5.Controls.Add(this.label3);
             this.panel5.Location = new System.Drawing.Point(1107, 31);
@@ -211,56 +252,41 @@
             this.panel5.Size = new System.Drawing.Size(193, 149);
             this.panel5.TabIndex = 8;
             // 
-            // USERS
+            // label8
             // 
-            this.USERS.AutoSize = true;
-            this.USERS.Font = new System.Drawing.Font("Century Gothic", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.USERS.ForeColor = System.Drawing.Color.White;
-            this.USERS.Location = new System.Drawing.Point(36, 13);
-            this.USERS.Name = "USERS";
-            this.USERS.Size = new System.Drawing.Size(122, 44);
-            this.USERS.TabIndex = 0;
-            this.USERS.Text = "USERS";
-            this.USERS.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(27, 57);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(141, 77);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "143";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.White;
+            this.label8.Location = new System.Drawing.Point(29, 119);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(131, 21);
+            this.label8.TabIndex = 4;
+            this.label8.Text = "Total Last Week";
+            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(28, 57);
+            this.label2.Location = new System.Drawing.Point(24, 45);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(141, 77);
+            this.label2.Size = new System.Drawing.Size(160, 77);
             this.label2.TabIndex = 3;
-            this.label2.Text = "143";
+            this.label2.Text = "14%";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(7, 13);
+            this.label3.Location = new System.Drawing.Point(2, 13);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(183, 44);
+            this.label3.Size = new System.Drawing.Size(185, 32);
             this.label3.TabIndex = 2;
-            this.label3.Text = "SESSIONS";
+            this.label3.Text = "ATTENDANCE";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // dryWet1
             // 
@@ -293,6 +319,7 @@
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(152)))), ((int)(((byte)(211)))));
+            this.panel6.Controls.Add(this.label6);
             this.panel6.Controls.Add(this.label4);
             this.panel6.Controls.Add(this.label5);
             this.panel6.Location = new System.Drawing.Point(671, 31);
@@ -300,28 +327,40 @@
             this.panel6.Size = new System.Drawing.Size(193, 149);
             this.panel6.TabIndex = 8;
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(13, 119);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(170, 21);
+            this.label6.TabIndex = 2;
+            this.label6.Text = "Distinct Activities LW";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(26, 57);
+            this.label4.Location = new System.Drawing.Point(64, 45);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(141, 77);
+            this.label4.Size = new System.Drawing.Size(69, 77);
             this.label4.TabIndex = 1;
-            this.label4.Text = "143";
+            this.label4.Text = "7";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Century Gothic", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(12, 13);
+            this.label5.Location = new System.Drawing.Point(24, 13);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(168, 44);
+            this.label5.Size = new System.Drawing.Size(149, 32);
             this.label5.TabIndex = 0;
-            this.label5.Text = "CLASSES";
+            this.label5.Text = "ACTIVITIES";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
@@ -339,6 +378,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.dryWet1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form_MainMenu";
@@ -380,6 +420,9 @@
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label6;
     }
 }
 

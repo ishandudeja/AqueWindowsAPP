@@ -8,6 +8,9 @@ namespace AquaGymID
 {
     static class Program
     {
+
+
+
         /// <summary>
         /// Punto de entrada principal para la aplicación.
         /// </summary>
@@ -16,6 +19,7 @@ namespace AquaGymID
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+
             Application.Run(new Form1());
         }
     }

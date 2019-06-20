@@ -109,6 +109,7 @@
     <Compile Include="TopSessions.Designer.cs">
       <DependentUpon>TopSessions.cs</DependentUpon>
     </Compile>
+    <Compile Include="Variables.cs" />
     <EmbeddedResource Include="Attendance.resx">
       <DependentUpon>Attendance.cs</DependentUpon>
     </EmbeddedResource>
